@@ -21,6 +21,12 @@
     "@typescript-eslint/no-require-imports": "error",
     "@typescript-eslint/no-unnecessary-qualifier": "error",
     "@typescript-eslint/semi": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto",
+      }
+    ],
     "brace-style": "off",
     "func-call-spacing": "off",
     "max-len": ["warn", { "code": 100 }],
